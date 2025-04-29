@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Get Involved - Bright Future Charity</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+	<script src="donation.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>BRIGHT FUTURE CHARITY</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-ajax="false">Home</a></li>
+                <li><a href="about.html" data-ajax="false">About Us</a></li>
+                <li><a href="campaigns.html" data-ajax="false">Campaigns</a></li>
+                <li><a href="get-involved.html" data-ajax="false">Get Involved</a></li>
+                <li><a href="contact.html" data-ajax="false">Contact Us</a></li>
+				<li><a href="schedule.html" data-ajax="false">Volunteering Schedule</a></li>
+				<li><a href="info.html">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="get-involved" class="section">
+        <h2>VOLUNTEERING</h2>
+        <img src="Volunteer.jpg" alt="Volunteering" style="display: block; margin: 0 auto; width: 40%; height: auto;">
+        <p>Starting out as a small group of people passionate about helping others, Bright Future Charity quickly grew via word-of-mouth. Today, we consist of volunteers from all walks of life.</p>
+        
+        <b>Volunteer Roles</b>
+        <ul>
+            <li>Minimum age is 18 years old for street distribution.</li>
+            <li>For other activities, minimum age is 12 years old and accompanied by a guardian.</li>
+            <li>First-time volunteers are required to attend a briefing.</li>
+            <li>No jewelry. No shorts, tight and low-cut revealing tops. No high-heel shoes.</li>
+            <li>No religious preaching. No politics.</li>
+            <li>Transport is not provided.</li>
+            <li>Street distribution may last till past midnight.</li>
+            <li>Attire – T-shirt, jeans, long pants, and covered shoes.</li>
+        </ul>
+    </section>
+
+    <section id="donation" class="section">
+        <h2>DONATION</h2>
+        <img src="donation.png" alt="Donation" style="display: block; margin: 0 auto; width: 35%; height: auto;">
+        <p>As an NGO, our operations are dependent on donations from corporations and the public. Whether monetary or in-kind, they help us continue our mission of serving the underprivileged.</p>
+        
+        <b>Food (Dry)</b>
+        <p>Rice, biscuit, butter, canned baked beans, canned sardines, chocolate-based drinks, condensed milk, cooking oil, dry/instant noodles, family milk powder, flour, instant oats, jam, margarine, salt, sugar, etc.</p>
+        
+        <b>Food (Wet)</b>
+        <p>Bread, bun, cooked food (Halal), banana, etc.</p>
+        
+        <b>Non-Food items</b>
+        <p>Disposable face masks, disposable gloves, adult diapers, first-aid items, hair shampoo, medicated oil, mosquito coils, soap, etc.</p>
+    </section>
+
+    <section id="partnerships" class="section">
+        <h2>PARTNERSHIPS</h2>
+        <img src="partnership.png" alt="Partnership" style="display: block; margin: 0 auto; width: 40%; height: auto;">
+        <p>We can work together to benefit the underprivileged communities of our nation through practical charity initiatives. This additionally offers employees and customers a valuable opportunity to participate in volunteering experiences, both directly and indirectly.</p>
+        <p>We are firm believers in non-discrimination and practice this by helping where there is a need, regardless of race and religion. Our goal is to reach more people in the marginalized communities we serve; as such, we welcome assistance from the public.</p>
+        <p>If interested, contact us at BrightFutureCharity.com</p>
+    </section>
+	
+   <section id="donation-form" class="section"> 
+      <h2>Donate to Support Our Cause</h2>
+        <form id="donateForm">
+            <label>Name:</label><br>
+            <input type="text" id="name" placeholder="Your Name"><br><br>
+            
+            <label>Email:</label><br>
+            <input type="email" id="email" placeholder="Your Email"><br><br>
+            
+            <label>Donation Amount (RM):</label><br>
+            <input type="number" id="amount" placeholder="e.g. 50"><br><br>
+            
+            <label>Payment Method:</label><br>
+            <select id="paymentMethod">
+                <option value="" disabled selected>Select Payment Method</option>
+                <option value="online">Online Banking</option>
+                <option value="credit">Credit/Debit Card</option>
+                <option value="ewallet">E-Wallet</option>
+            </select><br><br>
+
+            <button type="submit">Donate Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2010 Bright Future Charity. All rights reserved.</p>
+    </footer>
+</body>
+</html>

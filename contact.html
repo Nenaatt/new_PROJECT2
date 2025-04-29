@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bright Future Charity</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="contact.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>BRIGHT FUTURE CHARITY</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-ajax="false">Home</a></li>
+                <li><a href="about.html" data-ajax="false">About Us</a></li>
+                <li><a href="campaigns.html" data-ajax="false">Campaigns</a></li>
+                <li><a href="get-involved.html" data-ajax="false">Get Involved</a></li>
+                <li><a href="contact.html" data-ajax="false">Contact Us</a></li>
+                <li><a href="schedule.html" data-ajax="false">Volunteering Schedule</a></li>
+				<li><a href="info.html" data-ajax="false">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <!-- Remove onsubmit here -->
+        <form id="contactForm">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" placeholder="Your Full Name"><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" placeholder="you@example.com"><br><br>
+
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" placeholder="Subject of your message"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" rows="5" placeholder="Write your message here..."></textarea><br><br>
+
+            <button class="ui-btn ui-icon-check ui-btn-icon-left">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2010 Bright Future Charity. All rights reserved.</p>
+    </footer>
+</body>
+</html>

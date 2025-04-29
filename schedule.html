@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Volunteering Schedule  - Bright Future Charity</title>
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="schedule.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>BRIGHT FUTURE CHARITY</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-ajax="false">Home</a></li>
+                <li><a href="about.html" data-ajax="false">About Us</a></li>
+                <li><a href="campaigns.html" data-ajax="false">Campaigns</a></li>
+                <li><a href="get-involved.html" data-ajax="false">Get Involved</a></li>
+                <li><a href="contact.html" data-ajax="false">Contact Us</a></li>
+				<li><a href="schedule.html" data-ajax="false">Volunteering Schedule</a></li>
+				<li><a href="info.html" data-ajax="false">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+  <section id="schedule" class="section">
+    <h1>Volunteering Schedule</h1>
+     <table>
+       <thead>
+        <tr>
+          <th>Days</th>
+          <th>Time</th>
+          <th>Event</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Date">Sunday</td>
+          <td data-label="Time">2:00 AM</td>
+          <td data-label="Event">Community Kitchen</td>
+          <td data-label="Location">Pusat Komuniti Indera Mahkota</td>
+        </tr>
+        <tr>
+          <td data-label="Date">Monday</td>
+          <td data-label="Time">9:00 AM</td>
+          <td data-label="Event">Tree Planting</td>
+          <td data-label="Location">Taman Tasik Kuantan</td>
+        </tr>
+        <tr>
+          <td data-label="Date">Tuesday</td>
+          <td data-label="Time">2:00 PM</td>
+          <td data-label="Event">Women's day</td>
+          <td data-label="Location">Women’s Aid Organisation (WAO)</td>
+        </tr>
+        <tr>
+          <td data-label="Date">Wednesday</td>
+          <td data-label="Time">9:00 AM</td>
+          <td data-label="Event">Food & Supplies Distribution</td>
+          <td data-label="Location">Orang Asli Village</td>
+        </tr>
+		<tr>
+          <td data-label="Date">Thursday</td>
+          <td data-label="Time">3:00 AM</td>
+          <td data-label="Event">Food & Supplies Distribution</td>
+          <td data-label="Location">Persatuan Kebajikan Anak-anak Yatim Islam Pulau Pinang </td>
+        </tr>
+		<tr>
+          <td data-label="Date">Friday</td>
+          <td data-label="Time">2:00 AM</td>
+          <td data-label="Event">Food & Supplies Distribution</td>
+          <td data-label="Location">Giving to Homeless</td>
+        </tr>
+		<tr>
+          <td data-label="Date">Saturday</td>
+          <td data-label="Time">9:00 AM</td>
+          <td data-label="Event">Food & Supplies Distribution</td>
+          <td data-label="Location">Pertubuhan Kebajikan Islam Malaysia (PERKIM)</td>
+        </tr>
+      </tbody>
+       <div class="date-picker">
+         <label for="event-date">Select a Date:</label>
+         <input type="date" id="event-date">
+         <button onclick="findEvent()">Check Event</button>
+          <p id="event-result"></p>
+      </div>
+    </table>
+</section>
+      </main>
+        <footer>
+          <p>&copy; 2010 Bright Future Charity. All rights reserved.</p>
+      </footer>
+</body>
+</html>
